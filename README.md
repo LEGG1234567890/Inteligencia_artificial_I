@@ -1,3 +1,4 @@
+theme: jekyll-theme-minimal
 # Inteligencia artificial I
 Este repositorio cuenta con actividades realizadas por mi, ademas del material con el que me apoyé; dicho material proviene de otras personas u organizaciones.
 
