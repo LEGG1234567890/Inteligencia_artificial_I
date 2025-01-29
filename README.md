@@ -4,8 +4,8 @@ Este repositorio cuenta con actividades realizadas por mi, ademas del material c
 
 ## Trabajos de mi autoría
 
-* [A1.1 Aprendizaje estadístico-automático](/A1.1%20Aprendizaje%20estadístico-automático/Aprendizaje_estadistico_automatico.html)
-* [A1.2 Regresión lineal simple](/A1.2%20Regresión%20lineal%20simple/Regresion_lineal_simple.html)
+* [A1.1 Aprendizaje estadístico-automático](Aprendizaje_estadistico_automatico.html)
+* [A1.2 Regresión lineal simple](Regresión_lineal_simple.html)
 * [A1.3 Regresión lineal múltiple](/A1.3%20Regresión%20lineal%20múltiple/Regresion_lineal_multiple.html)
 
 ### Importante
