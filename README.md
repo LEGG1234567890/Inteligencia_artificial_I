@@ -1,5 +1,3 @@
-# Inteligencia artificial I
-
 Este repositorio cuenta con actividades realizadas por mi, ademas del material con el que me apoyé; dicho material proviene de otras personas u organizaciones.
 
 ## Trabajos de mi autoría
@@ -10,4 +8,4 @@ Este repositorio cuenta con actividades realizadas por mi, ademas del material c
 
 ### Importante
 
-**Todo lo que se encuentre con en el repositorio que no sea los trabajos de mi autoría y los ejemplos, son de otras personas**
+**Todo lo que se encuentre con en el repositorio que no sea los trabajos de mi autoría (Adjuntados aca arriba), son de otras personas**
