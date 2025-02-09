@@ -6,6 +6,7 @@ Este repositorio cuenta con actividades realizadas por mi, ademas del material c
 * [A1.2 Regresión lineal simple](Regresión_lineal_simple.html)
 * [A1.3 Regresión lineal múltiple](Regresion_lineal_multiple.html)
 * [A1.4 Selección de características](Seleccion_de_caracteristicas.html)
+* [A1.5 Solución de problemas](Solucion_de_problemas.html)
 
 ### Importante
 
