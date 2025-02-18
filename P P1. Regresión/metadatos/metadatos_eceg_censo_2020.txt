@@ -1,0 +1,28 @@
+﻿identifier: MEX-INEGI.ESD2.01-CPV-2020
+
+title: Estadísticas Censales a Escalas Geoelectorales 2020
+
+description: INEGI. Censo de Población y Vivienda 2020. SNIEG. Información de Interés Nacional.
+Conjunto de indicadores sociodemográficos a nivel sección y distrito electoral federal, según la cartografía distrital del INE, provenientes del Censo de Población y Vivienda 2020
+
+modified: 2021-08-18
+
+publisher: Instituto Nacional de Estadística y Geografía, INEGI
+
+mbox: atencion.usuarios@inegi.org.mx
+
+license: https://www.inegi.org.mx/inegi/terminos.html
+
+dataDictionary: http://gaia.inegi.org.mx/mdm6/docs/geoelectorales/ECEG_CPyV_2020_Metadatos.pdf
+
+keyword: "estadísticas censales", "escalas geoelectorales", "secciones electorales", "distritos electorales", "características de las viviendas", "características de las personas", "indicadores sociodemográficos", "nacionalidad", "fecundidad", "natalidad", "mortalidad", "vivienda", "ocupantes", "servicios en la vivienda", "tenencia", "materiales de construcción precarios", "tecnologías de información", "educación", "nivel de escolaridad", "tasa de alfabetización", "asistencia escolar", "movilidad escolar", "características económicas", "población económicamente activa", "PEA", "población no económicamente activa", "PNEA", "situación conyugal", "servicios de salud", "etnicidad", "lengua indígena", "afrodescendiente"
+
+contactPoint: Mtro. J. Armando Aguiar Rodríguez, 800 111 4634
+
+temporal: 2020-03-15-2020-03-15
+
+spatial: Estados Unidos Mexicanos
+
+accrualPeriodicity: Única
+
+distribution: https://www.inegi.org.mx/programas/ccpv/2020/
