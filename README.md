@@ -9,6 +9,7 @@ Este repositorio cuenta con actividades realizadas por mi, ademas del material c
 * [A1.5 Solución de problemas](Solucion_de_problemas.html)
 * [A1.6 Regresión no lineal](Regresion_no_lineal.html)
 * [P P1. Regresión](P_P1_Regresion.html)
+* [A2.1 Regresión logística y validación cruzada](Regresion_logistica_y_validacion_cruzada.html)
 
 ### Importante
 
