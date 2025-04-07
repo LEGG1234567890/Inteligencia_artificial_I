@@ -7476,13 +7476,13 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=13cdf878">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="A3.1-SVM-y-multiple-testing">A3.1 SVM y multiple testing<a class="anchor-link" href="#A3.1-SVM-y-multiple-testing">¶</a></h1><h2 id="Luis-Enrique-Garcia-Gallegos">Luis Enrique Garcia Gallegos<a class="anchor-link" href="#Luis-Enrique-Garcia-Gallegos">¶</a></h2><h3 id="Matricula:-649247"><strong>Matricula</strong>: 649247<a class="anchor-link" href="#Matricula:-649247">¶</a></h3><p>En esta actividad trabajarás con la base de datos de la que se habló en clase, que consiste de <strong>83 muestras</strong> y <strong>2308 variables</strong> de entrada, que consisten en la expresión génica estandarizada de distintos genes. La variable de salida cuenta con valores numéricos del <strong>1 al 4</strong> que corresponden a distintos tipos de cáncer.</p>
+<h1 id="A3.1-SVM-y-multiple-testing">A3.1 SVM y multiple testing<a class="anchor-link" href="#A3.1-SVM-y-multiple-testing">¶</a></h1><h2 id="Luis-Enrique-Garcia-Gallegos">Luis Enrique Garcia Gallegos<a class="anchor-link" href="#Luis-Enrique-Garcia-Gallegos">¶</a></h2><h3 id="Matricula:-649247"><strong>Matricula:</strong> 649247<a class="anchor-link" href="#Matricula:-649247">¶</a></h3><p>En esta actividad trabajarás con la base de datos de la que se habló en clase, que consiste de <strong>83 muestras</strong> y <strong>2308 variables</strong> de entrada, que consisten en la expresión génica estandarizada de distintos genes. La variable de salida cuenta con valores numéricos del <strong>1</strong> al <strong>4</strong> que corresponden a distintos tipos de cáncer.</p>
 <p>Desarrolla los siguientes puntos en una <em>Jupyter Notebook</em>, tratando, dentro de lo posible, que cada punto se trabaje en una celda distinta. Los comentarios en el código siempre son bienvenidos, de preferencia, aprovecha el <em>markdown</em> para generar cuadros de descripción que ayuden al lector a comprender el trabajo realizado.</p>
 <ol>
 <li>Importa los datos a tu ambiente de trabajo y revisa que no haya huecos. Calcula la diferencia de promedios entre las clases 2 y 4 para todos los genes, e imprime los 10 genes con la mayor diferencia de medias. Indica qué crees que esta diferencia podría implicar en términos de un estudio de inferencia.</li>
@@ -7490,7 +7490,7 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=93c572c6">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7546,7 +7546,7 @@ dtype: float64</pre>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b74effda">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7554,12 +7554,12 @@ dtype: float64</pre>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Esta parte del código fue proporcionada por ChatGpt, lo que hace es buscar todos los datos que pertenezcan a la clase <strong>2</strong> y <strong>4</strong> con la finalidad de poder determinar sus promedios para cada variable, de tal forma que podemos conocer sacar las diferencias de cada variable y mostrar las primeras <strong>10 variables</strong> que tengan la mayor diferencia que son las que se imprimieron.</p>
 <ol start="2">
-<li>Calcula el estadístico t y el p-value para comparar las medias de todos los genes entre la clase 2 y la clase 4 de la base de datos. Usa la metodología de Bonferroni, de Holm, y de Benjamini-Hochberg para corregir por múltiples pruebas e indica, para cada una, qué genes tienen una expresión significativamente distinta entre las clases (maneja un control de 0.05). Te recomiendo usar la función multipletests de statsmodels.stats.multitest</li>
+<li>Calcula el <code>estadístico t</code> y el <code>p-value</code> para comparar las medias de todos los genes entre la clase 2 y la clase 4 de la base de datos. Usa la metodología de Bonferroni, de Holm, y de Benjamini-Hochberg para corregir por múltiples pruebas e indica, para cada una, qué genes tienen una expresión significativamente distinta entre las clases (maneja un control de 0.05). Te recomiendo usar la función <code>multipletests</code> de <code>statsmodels.stats.multitest</code></li>
 </ol>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=df8baeac">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7650,7 +7650,7 @@ X1389 4.838102e-11
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5691d6ec">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7658,12 +7658,12 @@ X1389 4.838102e-11
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Este código fue proporcionado por ChatGpt y Claude, lo que hace es analizar cada gen de las clases <strong>2</strong> y <strong>4</strong> para determinar su <code>T-stat</code> y <code>P-value</code> para poder realizar las metodología de Bonferroni, de Holm, y de Benjamini-Hochberg, las cuales son funciones que ya vienen en <code>statsmodels.stats.multitest</code> de tal forma que podemos evitar caer en falsos descubrimientos por ejemplo Bonferroni es muy bueno para evitar los falso positivos pero no los falsos negativos, Holm-Bonferroni se basa en Bonferroni pero usa más potencia estadística, en cambio Benjamini-Hochberg controla la tasa esperada de falsos descubrimientos, no el riesgo total; permitiéndole detectar más cosas que Bonferroni no podría. Si comparamos los resultados veremos que obtuvieron resultados similares y que su manera de obtener las variables más significativas son distintas.</p>
 <ol start="3">
-<li>Realiza un experimento similar, pero ahora comparando las medias de las 4 clases de la base de datos. Para lograrlo, en vez de trabajar con el estadístico t, te recomiendo realizar pruebas de análisis de varianza (<strong>ANOVA</strong>). Dicha prueba la puedes realizar con la función <code>f_oneway</code> de <code>scipy.stats</code>, pero revisa bien cómo se deben ingresar los datos a dicha función, necesitarás primero estratificarlos por clase.</li>
+<li>Realiza un experimento similar, pero ahora comparando las medias de las <strong>4 clases</strong> de la base de datos. Para lograrlo, en vez de trabajar con el estadístico t, te recomiendo realizar pruebas de análisis de varianza (<strong>ANOVA</strong>). Dicha prueba la puedes realizar con la función <code>f_oneway</code> de <code>scipy.stats</code>, pero revisa bien cómo se deben ingresar los datos a dicha función, necesitarás primero estratificarlos por clase.</li>
 </ol>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1d38d18e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7718,7 +7718,7 @@ Variables candidatas ANOVA con p-ajustado &lt; 0.05: 1146
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f9871b27">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7731,7 +7731,7 @@ Variables candidatas ANOVA con p-ajustado &lt; 0.05: 1146
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=6c83052a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7750,20 +7750,20 @@ Variables candidatas ANOVA con p-ajustado &lt; 0.05: 1146
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=744e3d38">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Este código fue proporcionado por ChatGpt y basándonos en el ANOVA podremos determinar que variables son relevantes ya que según nuestro código previo nos dio que <strong>1146 variables</strong> son relevantes pero como tenemos 83 muestras por lo que tenemos que tener menos variables que muestras por lo que arbitrariamente decidí usar 30 variables, las cuales serán las que obtengan un <code>p-ajustado</code> menor a <strong>0.05</strong>, escogiendo el los <strong>25 más bajo</strong>. Entrenaremos 3 modelos más adelante y usaremos <code>StratifiedKFold</code> para realizar validación cruzada en cada modelo, con un <code>random_state=42</code>.</p>
+<p>Este código fue proporcionado por ChatGpt y basándonos en el ANOVA podremos determinar que variables son relevantes ya que según nuestro código previo nos dio que <strong>1146 variables</strong> son relevantes pero como tenemos <strong>83 muestras</strong> por lo que tenemos que tener menos variables que muestras por lo que arbitrariamente decidí usar <strong>30 variables</strong>, las cuales serán las que obtengan un <code>p-ajustado</code> menor a <strong>0.05</strong>, escogiendo el los <strong>25 más bajo</strong>. Entrenaremos <strong>3 modelos</strong> más adelante y usaremos <code>StratifiedKFold</code> para realizar validación cruzada en cada modelo, con un <code>random_state=42</code>.</p>
 <ol start="5">
 <li>Calcula, para los 3 modelos, las métricas que consideres importantes para comparar los desempeños. Indica qué opinas sobre los resultados, especificando si crees que uno de los kernels es mejor para esta tarea específica.</li>
 </ol>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=88c0254e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7886,13 +7886,13 @@ weighted avg      0.317     0.482     0.382        83
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ff589be7">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Este código fue proporcionado por ChatGpt, lo que podemos visualizar es que los 3 modelo tienen un accuracy muy bajo siendo el mas alto el modelo 1 siendo del $55%$, el cual tiene un kernel lineal y el modelo 2 con un kernel polinomial de grado 3 con un $54%$ y el modelo 3 con un kernel rbf con un $48%$, observando las matrices de confusión vemos que los 3 modelos tienden a decir que se pertenece a la clase <strong>2</strong> 0 <strong>4</strong>. Con esto datos nos damos cuenta que en general los 3 modelos no son los mejores para predecir las 4 clases, lo mejor seria tener más muestras o ejecutar otros modelos que mejor se adapten a estos datos.</p>
+<p>Este código fue proporcionado por ChatGpt, lo que podemos visualizar es que los <strong>3 modelos</strong> tienen un accuracy muy bajo siendo el más alto el <strong>modelo 1</strong> siendo del $55%$, el cual tiene un kernel lineal y el <strong>modelo 2</strong> con un kernel polinomial de grado 3 con un $54$ y el <strong>modelo 3</strong> con un kernel rbf con un $48%$, observando las matrices de confusión vemos que los <strong>3 modelos</strong> tienden a decir que se pertenece a la clase <strong>2</strong> o <strong>4</strong>. Con esto datos nos damos cuenta que en general los <strong>3 modelos</strong> no son los mejores para predecir las <strong>4 clases</strong>, lo mejor seria tener más muestras o ejecutar otros modelos que mejor se adapten a estos datos.</p>
 <p><strong>Firma de Honor:</strong> Doy mi palabra que he realizado esta actividad con integridad académica</p>
 </div>
 </div>
