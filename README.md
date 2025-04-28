@@ -13,6 +13,7 @@ Este repositorio cuenta con actividades realizadas por mi, ademas del material c
 * [A2.2 LDA y árboles de decisión](LDA_y_arboles_de_decision.html)
 * [P P2. Clasificación](P_P2_Clasificacion.html)
 * [A3.1 SVM y multiple testing](SVM_y_multiple_testing.html)
+* [A3.2 Redes Neuronales](Redes_Neuronales.html)
 
 
 ### Importante
