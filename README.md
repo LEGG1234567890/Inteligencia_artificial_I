@@ -14,6 +14,7 @@ Este repositorio cuenta con actividades realizadas por mi, ademas del material c
 * [P P2. Clasificación](P_P2_Clasificacion.html)
 * [A3.1 SVM y multiple testing](SVM_y_multiple_testing.html)
 * [A3.2 Redes Neuronales](Redes_Neuronales.html)
+* [Red Neuronal](Redes_Neuronales.py)
 
 
 ### Importante
